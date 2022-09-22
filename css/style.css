@@ -4,6 +4,25 @@
 	font-family: 'Quicksand', sans-serif;
 	color: #333;
 }
+#myBtn {
+	display: none; /* Disembunyikan secara default */
+	position: fixed; /* Posisi Fixed/sticky position */
+	bottom: 20px; /* Tempatkan button di bagian bawah halaman */
+	right: 30px; /* Tempatkan button 30px dari kanan */
+	z-index: 99; /* Pastikan tidak tumpang tindih */
+	border: none; /* Hapus borders */
+	outline: none; /* Hapus outline */
+	background-color: red; /* Atur warna background  */
+	color: white; /* Warna teks */
+	cursor: pointer; /* Tambahkan penunjuk mouse saat mengarahkan kursor */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Sudut membulat */
+	font-size: 18px; /* Tingkatkan ukuran font */
+}
+  
+#myBtn:hover {
+	background-color: #555; /* Tambahkan background abu-abu tua saat mengarahkan kursor */
+}
 header {
 	height:70px;
 }
