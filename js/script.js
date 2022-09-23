@@ -24,10 +24,8 @@ let words = '';
 
 })();
 
-//DApatkan buttonnya:
 mybutton = document.getElementById("myBtn");
 
-// Saat pengguna melakukan scrolling ke bawah 20px dari bagian atas dokumen, maka tunjukkan tombolnya
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -38,8 +36,7 @@ function scrollFunction() {
   }
 }
 
-// Saat pengguna mengklik tombol, scroll kembali ke bagian atas dokumen
 function topFunction() {
-  document.body.scrollTop = 0; // Untuk Safari
-  document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE dan Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
