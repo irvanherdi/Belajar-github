@@ -1,4 +1,4 @@
-const txtElement = ['Web Developer', 'Audio dan Video', 'Graphic Designer'];
+const txtElement = ['Saya adalah seorang Web Developer', 'Saya adalah seorang Audio dan Video', 'Saya adalah seorang Graphic Designer'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -20,7 +20,7 @@ let words = '';
 		txtIndex = 0;
 	}
 
-	setTimeout(ngetik, 400);
+	setTimeout(ngetik, 100);
 
 })();
 
